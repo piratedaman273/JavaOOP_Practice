@@ -1,6 +1,6 @@
-package Abstraction;
+package Abstraction.ViaAbstractClass;
 
-abstract class ShapeBaseClass {
+public abstract class ShapeBaseClass {
     int colorcode;
 
     public int getColorcode() {

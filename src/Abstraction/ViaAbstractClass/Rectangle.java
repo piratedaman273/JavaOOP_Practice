@@ -1,6 +1,8 @@
-package Abstraction;
+package Abstraction.ViaAbstractClass;
 
-public class Rectangle extends ShapeBaseClass{
+import Abstraction.ViaAbstractClass.ShapeBaseClass;
+
+public class Rectangle extends ShapeBaseClass {
     int length;
     int bredth;
     int colorCode;

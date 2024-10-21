@@ -1,4 +1,4 @@
-package Abstraction;
+package Abstraction.ViaAbstractClass;
 
 public class Square extends ShapeBaseClass {
     double side;
