@@ -11,10 +11,10 @@ public class Rectangle extends ShapeBaseClass {
         this.length= length;
         this.bredth = bredth;
     }
-    double GetArea(){
+    public double GetArea(){
         return length*bredth;
     }
-    void PrintArea(){
+    public void PrintArea(){
         System.out.println("Area of given rectangle is "+GetArea()+" ColorCode of Rectangle is "+ getColorcode());
     }
 }

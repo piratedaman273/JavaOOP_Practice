@@ -7,10 +7,10 @@ public class Square extends ShapeBaseClass {
         super(colorcode);
         this.side = side;
     }
-    double GetArea(){
+    public double GetArea(){
         return side*side;
     }
-    void PrintArea(){
+    public void PrintArea(){
         System.out.println("Area of given square is "+GetArea()+" Colorcode of square is "+getColorcode());
     }
 }

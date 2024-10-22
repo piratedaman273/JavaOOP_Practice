@@ -12,6 +12,6 @@ public abstract class ShapeBaseClass {
     public ShapeBaseClass(int colorcode) {
         this.colorcode = colorcode;
     }
-    abstract double GetArea();
-    abstract void PrintArea();
+    public abstract double GetArea();
+    public abstract void PrintArea();
 }
