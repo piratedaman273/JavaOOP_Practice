@@ -36,6 +36,5 @@ public class DriverClass {
         mcd.PrintMessage(); //<-- This will print the overrided message because we are overridng the default
                             //method in this class.
 
-        //Changes from different device to pull.
     }
 }
